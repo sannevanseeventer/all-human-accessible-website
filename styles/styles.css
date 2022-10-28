@@ -1,0 +1,222 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    height: 100vh;
+}
+
+/* YELLOW BANNER */
+header {
+    width: 100%;
+    background-color: #f4eb34;
+    position: relative;
+    padding: 1.2em;
+}
+
+p{
+    color: #152a42;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.88rem;
+    font-weight: 300;
+    padding: 1.2em auto;
+    width: 100%;
+}
+
+/* NAV + LOGO + ICONS*/
+nav{
+    display: flex; 
+    flex-flow:row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    width: 100vw;
+}
+
+nav img{
+    width: 140px;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: center;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 1.4em;
+    position: relative;
+    letter-spacing: 0.1em;
+}
+
+.nav-links ul li a{
+    color: #152a42;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 0.75rem;
+}
+
+.nav-links ul li a:hover{
+    color: #72AEA6;
+}
+
+
+.shoppingcart, .person{
+    background-color: transparent;
+    border: none;
+    color:#152a42;
+    position: relative;
+    margin-right:2em;
+
+}
+
+.shoppingcart:hover{
+    color:#72AEA6;
+
+}
+
+.person:hover{
+  color:#72AEA6;
+}
+
+.nav menu{
+    display: none;
+}
+
+
+/* HERO */
+.hero{
+    max-height: 100%;
+    width:100%;
+    background-image: url("../assets/background4.png");
+    background-size: cover;
+    position: absolute;
+    display: flex;
+    overflow-y: none;
+}
+
+.text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 14em 10em;
+    line-height: 2em;
+}
+
+.hero h1{
+    width: 100%;
+    color: #72AEA6;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2.3rem;
+    text-align: left;
+
+}
+
+.hero h2{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size:1.4rem;
+    color: #152a42;
+    text-align: left;
+}
+
+.hero h3{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #152a42;
+    text-align: left;
+}
+
+/* BUTTON TEST */
+
+.button{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #f4eb34;
+    color:#152a42;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5em 2em;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    align-self: flex-start;
+}
+
+.button:hover{
+    background-color:#72AEA6;
+    color: #ffffff;
+}
+
+
+/* PHONE */
+
+@media (max-width: 700px){
+    .header {
+        min-height: 3em;
+        width: 100vw;
+    }
+
+    p{
+        margin: 1em auto;
+        font-size: 0.7rem;
+        width: 80%;
+    }
+    
+    nav img{
+        width: 80px;
+        margin-top: 0.5em;
+        margin-left: 1em;
+    }
+    
+
+    .text{
+        margin-top: 7em;
+    }
+
+    .hero h1{
+        font-size: 1.6rem;
+    }
+
+    .hero h2{
+        width: 90%;
+        font-size:1.3rem;
+    }
+
+    .hero h2 br{
+      display: none;
+    }
+    
+    .hero h3{
+        width: 70%;
+        margin: 1em auto;
+        font-size: 0.9rem;
+    }
+
+}
+
+/* TABLET */
+
+@media (max-width: 700px){
+
+nav{
+    min-height: 3em;
+}
+
+.nav-links ul li{
+    margin-top: 1em;
+}
+}

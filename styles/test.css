@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fafafa;
+}
+
+/* YELLOW BANNER */
+header {
+    width: 100%;
+    background-color: #f4eb34;
+    position: relative;
+    padding: 1.2em;
+}
+
+p{
+    color: #152a42;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.88rem;
+    font-weight: 300;
+    padding: 1.2em auto;
+    width: 100%;
+}
+
+/* NAV + LOGO + ICONS*/
+nav{
+    display: flex; 
+    flex-flow:row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    width: 100vw;
+}
+
+nav img{
+    width: 140px;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: center;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 1.4em;
+    position: relative;
+    letter-spacing: 0.1em;
+}
+
+.nav-links ul li a{
+    color: #152a42;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 0.75rem;
+}
+
+.nav-links ul li a:hover{
+    color: #72AEA6;
+}
+
+
+.shoppingcart, .person{
+    background-color: transparent;
+    border: none;
+    color:#152a42;
+    position: relative;
+    margin-right:2em;
+}
+
+.shoppingcart:hover{
+    color:#72AEA6;
+
+}
+
+.person:hover{
+  color:#72AEA6;
+}
+
+.nav menu{
+    display: none;
+}
+
+
+
+/* FORM */
+.card {
+    background-color: white;
+    box-shadow:0 0 20px 10px rgba(0,0,0,.1);
+    border-radius: .5rem;
+    padding: 2em;
+    max-width: 25em;
+    height: 30em;
+    margin: 5em auto;
+    animation: fade 250ms ease-in-out forwards;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-group:last-child {
+    margin: 0;
+  }
+  
+  .form-group > label {
+    font-weight: bold;
+    font-size: 0.7rem;
+    color: #152a42;
+  }
+  
+  .form-group > input {
+    width: 70%;
+    padding: 10px 5px; 
+    margin: 5px 0;
+    border: 0;
+    border-bottom: 1px solid #b1b1b1;
+    outline: none;
+  }
+
+  .form-group > input::placeholder {
+    color: #152a42;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .step-title {
+    text-align: center;
+    width: 100%;
+    margin: 1.5em auto;
+    font-size:1.3em;
+    align-items: center;
+    color:#72AEA6;
+  }
+
+  .text-container{
+    margin-top: 5em;
+  }
+  
+  .card.active {
+    animation: slide 250ms 125ms ease-in-out both;
+  }
+  
+  .multi-step-form {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .hide {
+    display: none;
+  }
+
+  .btn-box{
+    text-align: center;
+    width: 70%;
+    margin: 4em auto;
+  }
+
+  .btn {
+    text-decoration: none;
+    font-size: 0.8em;
+    border:none;
+    background-color: #f4eb34;
+    width: 8em;
+    height:2.5em;
+    color:#152a42;
+    font-weight: 400;
+    border-radius: 14px;
+  }
+
+  .btn:hover {
+    background-color:#72AEA6;
+    color: #ffffff;
+  }
+
+  .check{
+    position: relative;
+    display: flex;
+    font-size: 0.9em;
+    color:#152a42;
+    padding: 0.2em;
+    justify-content: left;
+    margin-left: 3em;
+
+}
+
+
+  @keyframes slide {
+    0% {
+      transform: translateX(200%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fade {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(.75);
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+      transform: scale(0);
+    }
+  }
