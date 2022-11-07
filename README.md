@@ -3,6 +3,8 @@
 <h2>Opdracht</h2>
 Ontwerp en maak voor een opdrachtgever een component/pagina/site toegankelijk volgens WCAG richtlijnen.
 <br>
+<br>
+
 <strong>Userstory:</strong> Er kunnen vragen worden gesteld aan een gebruiker over zijn / haar Mini. Zo kan er een advies worden gegeven over wanneer en in welke hoeveelheid wat voor producten aan het kind kunnen worden gegeven.
 
 
