@@ -1,26 +1,7 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je, zoals altijd, in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+<h2>Vini Mini</h2>
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+<img width="1507" alt="Schermafbeelding 2022-11-07 om 14 39 01" src="https://user-images.githubusercontent.com/112857444/200324909-8b29e24e-35cf-40a7-a519-973e01bb54f3.png">
 
-## Inhoudsopgave
-
-  * [Beschrijving](#beschrijving)
-  * [Kenmerken](#kenmerken)
-  * [Bronnen](#bronnen)
-  * [Licentie](#licentie)
-
-## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
-
-## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
-
-
-
-## Bronnen
 
 ## Licentie
 
