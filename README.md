@@ -1,11 +1,10 @@
 <img width="156" alt="Schermafbeelding 2022-09-29 om 13 38 58" src="https://user-images.githubusercontent.com/112857444/193126088-101fcf85-c8e5-457d-a00f-e862a33249ac.png">
 
 <h2>Opdracht</h2>
-Ontwerp en maak voor een opdrachtgever een component/pagina/site toegankelijk volgens WCAG richtlijnen
-
+Ontwerp en maak voor een opdrachtgever een component/pagina/site toegankelijk volgens WCAG richtlijnen.
+<br>
 <strong>Userstory:</strong> Er kunnen vragen worden gesteld aan een gebruiker over zijn / haar Mini. Zo kan er een advies worden gegeven over wanneer en in welke hoeveelheid wat voor producten aan het kind kunnen worden gegeven.
 
-<br>
 
 <h2>Beschrijving</h2>
 Vini Mini heeft als missie om voedselallergie te voorkomen bij baby’s. Hiervoor bieden ze gezonde, makkelijke en betrouwbare voedingssupplementen voor baby’s om te wenne naan bepaalde allergenen. Nu alleen nog voor pinda, maar het doel is om hier ei, noten en andere allergenen aan toe te voegen.
